@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quick Reminders Support</title>
+<meta name="description" content="Help and contact for the Quick Reminders Android app.">
+<style>
+  :root { --bg:#F4EFE8; --card:#FBF8F3; --line:#DDD3C5; --text:#2B2724; --soft:#4A443E; --muted:#766D64; --accent:#B86E10; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1C1917; --card:#292524; --line:#44403C; --text:#F5F0EB; --soft:#D6D3D1; --muted:#A8A29E; --accent:#F5A524; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 48px; }
+  h1 { font-size: 1.9rem; line-height:1.2; margin: 0 0 16px; }
+  .contact { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px 18px; margin-bottom: 28px; }
+  details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { color: var(--soft); margin: 8px 0 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Support</h1>
+  <div class="contact">Questions, bugs or ideas? Email <a href="mailto:support@inter6solutions.com">support@inter6solutions.com</a>. Tell us your phone model and Android version if something isn't working.</div>
+
+  <details><summary>My reminders arrive late or not at all</summary>
+    <p>Some phones put apps to sleep to save battery. In the app, open More and follow the battery tip, or go to Android settings → Apps → Quick Reminders → Battery and choose "Unrestricted". Also check that notifications and "Alarms &amp; reminders" are allowed.</p></details>
+  <details><summary>"While at" isn't working</summary>
+    <p>It needs location access set to "Allow all the time" (Android settings → Apps → Quick Reminders → Permissions → Location). If your location can't be found, the reminder is delivered anyway, so you never miss one.</p></details>
+  <details><summary>I bought a tip on another phone</summary>
+    <p>Sign in with the same Google account and open the app. Purchases are restored automatically by Google Play.</p></details>
+  <details><summary>How do I delete a reminder?</summary>
+    <p>On the home screen, swipe the reminder to the left.</p></details>
+  <details><summary>Does the app collect my data?</summary>
+    <p>No. Everything stays on your phone. See the <a href="../privacy/">privacy policy</a>.</p></details>
+
+  <footer><a href="../">Quick Reminders</a> · <a href="../privacy/">Privacy policy</a> · <a href="/">Inter6 Solutions</a></footer>
+</main>
+</body>
+</html>

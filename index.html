@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quick Reminders</title>
+<meta name="description" content="Gentle desk-break reminders for Android: stand up, check your posture, stretch and rest your eyes. Free, ad free, no account.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%231C1917'/%3E%3Cpath transform='translate(3 3) scale(.75)' fill='%23F2A65A' d='M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z'/%3E%3C/svg%3E">
+<style>
+  :root { --bg:#F4EFE8; --card:#FBF8F3; --line:#DDD3C5; --text:#2B2724; --soft:#4A443E; --muted:#766D64; --accent:#B86E10; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1C1917; --card:#292524; --line:#44403C; --text:#F5F0EB; --soft:#D6D3D1; --muted:#A8A29E; --accent:#F5A524; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 40px; }
+  .top { display:flex; gap:16px; align-items:center; margin-bottom: 20px; }
+  .icon { flex:none; width:72px; height:72px; border-radius:18px; background:#1C1917; display:grid; place-items:center; }
+  h1 { font-size: 2rem; line-height:1.15; margin:0; letter-spacing:-0.02em; }
+  .tag { color: var(--soft); margin: 2px 0 0; }
+  .lead { font-size: 1.1rem; color: var(--soft); }
+  .btn { display:inline-block; margin: 8px 0 32px; padding: 12px 22px; border-radius: 999px; background: var(--accent); color: #1C1917; font-weight: 600; text-decoration: none; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .card b { display:block; margin-bottom: 4px; }
+  .card span { color: var(--soft); font-size: .95rem; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; display:flex; flex-wrap:wrap; gap: 8px 20px; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div class="icon" aria-hidden="true">
+      <svg width="38" height="38" viewBox="0 0 24 24"><path fill="#F2A65A" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+    </div>
+    <div><h1>Quick Reminders</h1><p class="tag">by Inter6 Solutions · Android</p></div>
+  </div>
+
+  <p class="lead">Sitting all day? Quick Reminders gives you gentle nudges to stand up, check your posture, stretch and rest your eyes, on the days and hours you choose. Free and ad free. No account, no tracking.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=app.quickreminders">Get it on Google Play</a>
+
+  <div class="grid">
+    <div class="card"><b>Built for desk days</b><span>Stand up, posture, stretch, look away (20-20-20), deep breaths, or your own reminder.</span></div>
+    <div class="card"><b>Your schedule</b><span>Pick days, active hours and any interval. Optional follow-up after each reminder.</span></div>
+    <div class="card"><b>Feel it without looking</b><span>A different vibration for each reminder, or tap out your own rhythm.</span></div>
+    <div class="card"><b>Only where it matters</b><span>"While at": only remind me at the office. Checked on your phone, never sent anywhere.</span></div>
+  </div>
+
+  <footer>
+    <a href="privacy/">Privacy policy</a>
+    <a href="support/">Support</a>
+    <a href="/">Inter6 Solutions</a>
+  </footer>
+</main>
+</body>
+</html>
